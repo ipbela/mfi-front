@@ -1,0 +1,16 @@
+*{
+    text-decoration: none;
+  }
+  
+.erro, .mensagem{
+  text-align: center;
+}
+
+.MainContentErro {
+    padding: 10px;
+    gap: 35px;
+    align-items: center;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 10%;
+  }

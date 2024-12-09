@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+.circular-progress {
+  position: relative;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: conic-gradient(#42B8DE 0deg, #ededed 0deg);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.circular-progress::before {
+  content: "";
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.progress-value {
+  position: relative;
+  font-size: 16px;
+  font-weight: 600;
+  color: #42B8DE;
+}

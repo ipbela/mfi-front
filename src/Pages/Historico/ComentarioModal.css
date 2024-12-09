@@ -1,0 +1,59 @@
+.modal-overlay-coment {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content-coment {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  text-align: center;
+  position: relative;
+  height: 30vh;
+}
+
+.user-box-coment {
+  margin: 20px 0;
+}
+
+.user-box-coment textarea {
+  padding: 10px;
+  width: 90%;
+  border: 2px solid #3ac9dd;
+  border-radius: 5px;
+  height: 10vh;
+  margin-top: 15px;
+}
+
+.modal-buttons-coment {
+  display: flex;
+  gap: 50px;
+  margin-left: 40px;
+}
+
+.Submitbutton-coment, .Submitbutton1-coment {
+  padding: 10px 20px;
+  font-size: 16px;
+  color: #fff;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.Submitbutton-coment {
+  background-color: rgba(144, 136, 136, 0.5);
+}
+
+.Submitbutton1-coment {
+  background-color: #42b8de;
+}

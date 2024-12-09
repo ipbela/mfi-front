@@ -1,0 +1,101 @@
+/* style.css */
+
+/* Maincontent */
+.MaincontentCadastro {
+	padding: 5% 0 0 0;
+	display: flex;
+	justify-content: center;
+}
+
+/* Cadastro */
+.Cadastro {
+	width: 50%;
+	padding: 60px;
+	background: white;
+	box-sizing: border-box;
+	border: 3px solid rgb(180, 180, 180);
+	border-radius: 10px;
+}
+
+/* Logo */
+.logo-siv-cadastro{
+	position: relative;
+	width: 10%;
+	left: 370px;
+}
+
+.box-geral{
+	display: flex;
+	gap: 10%;
+	margin: 50px 0 0 0;
+}
+
+.primeiro-box{
+	width: 50%;
+}
+
+.segundo-box{
+	width: 50%;
+}
+
+/* inputs */
+.Cadastro input[type="text"],
+.Cadastro input[type="password"] {
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0 30px 0;
+	font-size: 16px;
+	border: 2px solid #3ac9dd;
+	border-radius: 8px;
+	height: 45px;
+}
+
+.select-funcao{
+	width: 100%;
+	padding: 10px;
+	margin: 10px 0 0 0;
+	font-size: 16px;
+	border: 2px solid #3ac9dd;
+	border-radius: 8px;
+	height: 45px;
+}
+
+/* Submitbuttom */
+.Cadastro .Submitbuttom {
+	padding: 10px 20px;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	transition: 0.7s;
+	letter-spacing: 2px;
+	background-color: #42b8de;
+	border-color: #42b8de;
+	border-radius: 8px;
+	cursor: pointer;
+	margin: 30px 0 0 0;
+}
+
+.btns-cad{
+	display: flex;
+	gap: 20px;
+	justify-content: center;
+}
+
+.Cadastro .Cancelbuttom {
+	padding: 10px 30px;
+	color: #fff;
+	font-size: 16px;
+	text-decoration: none;
+	text-transform: uppercase;
+	overflow: hidden;
+	transition: 0.7s;
+	letter-spacing: 2px;
+	background-color: #b8b8b8;
+	border-color: #b8b8b8;
+	border-radius: 8px;
+	cursor: pointer;
+	margin: 30px 0 0 0;
+}
+

@@ -1,0 +1,90 @@
+* {
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+.delete-user,
+.edit-user{
+  width: 40px;
+  height: 40px;
+  background-color: #42b8de;
+  padding: 8px 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 0 -20px 0 40px;
+}
+
+.delete-user:hover,
+.edit-user:hover {
+  background-color: #0077cc;
+}
+
+.table-container {
+  text-align: center;
+  width: 80%;
+  margin: 0 auto;
+}
+
+table {
+  width: 105%;
+  margin: 50px 0;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid #858585;
+  padding: 12px;
+  text-align: left;
+}
+
+th {
+  color: black;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.col-user{
+  width: 15%;
+}
+
+.col-nome{
+  width: 35%;
+}
+
+.col-acesso{
+  width: 10%;
+}
+
+.col-acoes{
+  width: 8%;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 5px 10px;
+  background-color: #42b8de;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.pagination button:hover {
+  background-color: #0077cc;
+}
+

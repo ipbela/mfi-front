@@ -1,0 +1,165 @@
+.MaincontentAddLpr {
+	padding: 1% 0 0 0;
+}
+
+.seta{
+  padding-bottom: 30px;
+}
+
+.toast-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	z-index: 9999;
+}
+
+.FormLpr{
+	display: flex;
+	gap: 100px;
+	position: relative;
+	left: 95px;
+	top: 20px;
+}
+
+.Date-lpr,
+.Text-lpr {
+	padding: 15px 10px;
+	font-size: 16px;
+	color: #000;
+	border-radius: 8px;
+	border: 2px solid #3ac9dd;
+	height: 45px;
+	margin-top: 10px;
+}
+
+.Date-lpr {
+	width: 200px;
+}
+
+.Text-lpr {
+	width: 300px;
+}
+
+.btn-lpr-up{
+	margin: 60px 0 0 90px;
+	padding: 10px 25px;
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	border-radius: 8px;
+	border: none;
+	background-color: #3ac9dd;
+	cursor: pointer;
+}
+
+.lapis-img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.SelectorContainerLpr {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	border-radius: 8px;
+	border: 2px solid #3ac9dd;
+	width: 150px;
+	height: 50px;
+  padding: 5px 10px;
+	margin-top: -2px;
+	margin-top: 10px;
+}
+
+.Option {
+	width: 35px;
+	height: 35px;
+	border-radius: 50%;
+	background-color: #c6c6c6;
+	cursor: pointer;
+	margin: 0 12px;
+}
+
+/* Modal styles */
+.modal-overlay {
+	position: fixed;
+	top: 10px;
+	left: 500px;
+	width: 40%;
+	height: 100%;
+	background: white;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 999;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.modal-content {
+	background: white; /* Fundo branco */
+	padding: 20px;
+	border-radius: 8px;
+	width: 98%;
+	max-width: 700px;
+	height: 90%;
+	overflow-y: auto;
+}
+
+.modal-content h2{
+	font-weight: 600;
+}
+
+.modal-box {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 14%;
+	margin-top: 30px;
+}
+
+.modal-input {
+	width: 95%;
+	margin-bottom: 20px;
+}
+
+.modal-input p {
+	margin-bottom: 5px;
+}
+
+.modal-input input,
+.modal-input select {
+	padding: 8px 10px;
+	font-size: 16px;
+	color: #000;
+	border-radius: 8px;
+	border: 2px solid #3ac9dd;
+	width: 100%;
+}
+
+.modal-buttons{
+    margin-top: -30px;
+}
+
+.btn-confirm,
+.btn-cancel {
+	padding: 10px 30px;
+	font-size: 16px;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
+.btn-confirm {
+	background-color: #42b8de;
+	color: #fff;
+	border: 2px solid #42b8de;
+  margin-bottom: 10px;
+}
+
+.btn-cancel {
+	background-color: #ddd;
+	color: #343a40;
+	border: 2px solid #ddd;
+}
